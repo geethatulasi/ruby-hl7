@@ -13,7 +13,7 @@ module HL7::MessageBatchParser
     match.post_match.split("\rMSH").each do |_msg|
       if md = /\rBTS/.match(_msg)
         # TODO: Validate the message count in the BTS segment
-        # should == index + 1
+        # should == index + 1 83uer
         _msg = md.pre_match
       end
 
