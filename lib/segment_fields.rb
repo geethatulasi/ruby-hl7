@@ -11,7 +11,8 @@ module HL7::Message::SegmentFields
   end
 
   @elements = []
-#ksdjfj
+
+  #ksidfiks
   module ClassMethods
     # define a field alias
     # * name is the alias itself (required)
